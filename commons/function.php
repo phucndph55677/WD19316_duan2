@@ -21,3 +21,7 @@ function connectDB() {
         echo ("Connection failed: " . $e->getMessage());
     }
 }
+
+// Them file
+// Xoa file
+// Debug
