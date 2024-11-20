@@ -39,14 +39,14 @@ match ($act) {
 
     ///Route Quản lý Đơn hàng
     
-    'don-hang' => (new AdminDonHangController())->danSachDonHang()
-
+    'don-hang' => (new AdminDonHangController())->danSachDonHang(),
+     'chi-tiet-don-hang' => (new AdminDonHangController())->detailDonHang()
     // 'form-sua-don-hang' => (new AdminDanhMucController())->formEditDonHang(),
 
     // 'sua-don-hang' => (new AdminDanhMucController())->postEditDonHang(),
 
     // 'xoa-don-hang' => (new AdminDanhMucController())->deleteDonHang(),
 
-    // 'chi-tiet-don-hang' => (new AdminDanhMucController())->detailDonHang()
+    
 
 };
